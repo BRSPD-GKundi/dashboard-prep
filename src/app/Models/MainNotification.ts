@@ -8,6 +8,6 @@ export enum InitialStatus {
 export class MainNotification {
     private notificationID!:string;
     private initialStatus!:InitialStatus;
-
+    private countdownTimer!:any;
 
 }
