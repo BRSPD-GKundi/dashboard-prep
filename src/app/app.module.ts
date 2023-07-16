@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MainNotificationTableComponent } from './Components/main-notification-table/main-notification-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainNotificationTableComponent
   ],
   imports: [
     BrowserModule,
